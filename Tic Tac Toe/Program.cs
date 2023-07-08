@@ -57,7 +57,7 @@ internal class Program
                 }
                 else
                 {
-                    Console.WriteLine("PLayer 1's turn. Make your choice for spot.");
+                    Console.WriteLine("Player 1's turn. Make your choice for spot.");
                     player++;
                     mark = 'X';
                 }
@@ -136,7 +136,7 @@ internal class Program
                                 }
                                 else
                                 {
-                                    Console.WriteLine("Error message PLayer 2.");
+                                    Console.WriteLine("Error message Player 2.");
                                     Console.WriteLine("This spot is already taken. Press enter to try again.");
                                     Console.ReadKey();
                                     player--;
@@ -195,7 +195,7 @@ internal class Program
             // Check if the players want to play another game
             do 
             {
-                Console.WriteLine("\nWould you like to play again?\n");
+                Console.WriteLine("\nWould you like to play again? Press Y for yes or N for no.\n");
                 char input = char.ToLower(Console.ReadKey().KeyChar);
 
                 if (input == 'y')
